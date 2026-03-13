@@ -1,42 +1,10 @@
-# sv
+# Selftalk
 
-Everything you need to build a Svelte project, powered by [`sv`](https://github.com/sveltejs/cli).
+혼자서 채팅을 할 수 있는 웹사이트
 
-## Creating a project
+## 사용 방법
 
-If you're seeing this, you've probably already done this step. Congrats!
-
-```sh
-# create a new project
-npx sv create my-app
-```
-
-To recreate this project with the same configuration:
-
-```sh
-# recreate this project
-bun x sv@0.12.6 create --template minimal --types ts --add prettier eslint --install bun .
-```
-
-## Developing
-
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
-
-```sh
-npm run dev
-
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
-
-## Building
-
-To create a production version of your app:
-
-```sh
-npm run build
-```
-
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://svelte.dev/docs/kit/adapters) for your target environment.
+- `Tab`: 사용자 변경
+- `Ctrl + N`: 나레이션 모드로 변경
+- `더블클릭`: 메시지 편집
+- `ArrowUp`: 마지막 메시지 편집
