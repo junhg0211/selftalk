@@ -136,6 +136,7 @@
 			font-family: 'Pretendard', sans-serif;
 		}
 	</style>
+	<title>Selftalk</title>
 </svelte:head>
 
 <div class="container">
